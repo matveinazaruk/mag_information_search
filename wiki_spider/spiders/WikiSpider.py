@@ -8,7 +8,7 @@ from wiki_spider.items import WikiSpiderItem
 import re
 
 
-class PhilosophySpider(CrawlSpider):
+class WikiSpider(CrawlSpider):
     name = 'wiki_spider'
 
     start_urls = ['https://en.wikipedia.org/wiki/Los_Angeles',
